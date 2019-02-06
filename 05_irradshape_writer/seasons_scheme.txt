@@ -1,0 +1,39 @@
+4 seasons
+
+Autumn (or fall) starts September 23
+
+Winter begins December 22
+
+First day of Spring is March 20
+
+And Summer starts June 21
+
+January - 31 days
+February - 28 days in a common year and 29 days in leap years
+March - 31 days
+April - 30 days
+May - 31 days
+June - 30 days
+July - 31 days
+August - 31 days
+September - 30 days
+October - 31 days
+November - 30 days
+December - 31 days
+
+1st hour of file, hour[0]: 0h-1h
+2nd hour of file, hour[1]: 1h-2h
+...
+24th hour of file, hour[23]: 23h-24h
+0-23
+24-47
+48-71
+72-95
+
+first hour of file is hour=0
+
+1st: spring - mar 20 - hour=1872 up to hour=4103
+2nd: summer - jun 21 - hour=4104 up to hour=6359
+3rd: autumn - sep 23 - hour=6360 up to hour=8519
+4th: winter - dec 22 - hour=8520 up to hour=1871  going through=[...,8758,8759,0,1,...]
+

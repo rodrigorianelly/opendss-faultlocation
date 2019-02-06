@@ -1,0 +1,6 @@
+These programs simulate ckt24 thousands of times, with faults of all types in
+different buses, seasons, hours in order to build up a database with currents 
+and voltages on the substation's transformer.
+
+The resulting data is available at 
+https://drive.google.com/open?id=1jzBDv_J_BDSlXoOs8bTm0COY-eiDCQmk

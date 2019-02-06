@@ -1,0 +1,17 @@
+! PV SYSTEM
+Edit XYcurve.MyPvst npts=4 xarray=[0 25 75 100] yarray=[1.2 1 .8 .6]  !Curva de diminuicao da Ppmp em funcao de T
+
+Edit XYcurve.MyEff npts=4 xarray=[0.1 0.2 0.4 1] yarray=[0.86 .9 .93 .97] !Curva de eficiencia do inversor
+
+Edit loadshape.MyIrrad npts=24 interval=1 mult=(file=irrad_SpringDay.txt) action=normalize !Curva de irradiacao do painel ao longo do dia
+
+Edit Tshape.Mytemp npts=24 interval=1 temp=(file=temps_SpringDay.txt) !Curva de temperatura ao longo do dia
+
+Edit PVSystem.PV3 phases=3 bus1=trafo_pv3 kv=0.48 kVA=8500 irrad=.981 pmpp=8500 temperature=25 pf=1 !Ppmp em kw
+~ %cutin=5 %cutout=5 effcurve=MyEff P-tCurve=MyPvst Daily=MyIrrad Tdaily=Mytemp
+
+! TRAFO
+
+Edit Transformer.pv_up3 phases=3 kVA=8500 xhl=5.27 %imag=0.5 %loadloss=0.706 %noloadloss=0.1492
+~ wdg=1 bus=trafo_pv3 kV=0.48 conn=wye
+~ wdg=2 bus=n292549 kV=34.5 conn=wye
