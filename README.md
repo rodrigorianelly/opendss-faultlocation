@@ -19,9 +19,9 @@ Radial distribution networks. Distributed photovoltaic generation. Photovoltaic
 systems. Penetration limit. OpenDSS. EPRI ckt24. Fault location. Supervised 
 learning. Neural network. Multilayer perceptron.
 
-You can look into Fault_location_ckt24.pptx to see more details. The full 
-document will be published within a few weeks, in portuguese language, by 
-University of Brasília.
+You can look into Fault_location_ckt24.pptx to see a simple graphical 
+explanation of the project, or go to TCC_Rodrigo_Rianelly to read the full 
+document.
 
 In order to run the codes, you should have Python 3, OpenDSS, a .db reader
 and some python packages such as win32com, numpy, matplotlib and sqlite3.
