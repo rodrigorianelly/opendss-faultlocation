@@ -26,6 +26,9 @@ document.
 In order to run the codes, you should have Python 3, OpenDSS, a .db reader
 and some python packages such as win32com, numpy, matplotlib and sqlite3.
 
+To understand how the implementation was done, you should run the codes
+inside the folders in numerical order.
+
 Since it takes a long time to run the fault simulations that build up the
 database, I have uploaded the files to Google Drive:
 https://drive.google.com/open?id=1jzBDv_J_BDSlXoOs8bTm0COY-eiDCQmk
